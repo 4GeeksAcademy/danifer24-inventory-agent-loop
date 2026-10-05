@@ -1,3 +1,19 @@
+# Secrets
 .env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local inventory and conversation data
+/products.csv
+/products.tmp
+/conversation_log.csv
+*.log

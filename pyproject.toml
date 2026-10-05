@@ -1,0 +1,11 @@
+[project]
+name = "inventory-agent-loop"
+version = "0.1.0"
+description = "Inventory API and CLI agent with CSV persistence"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.142.2",
+    "groq",
+    "python-dotenv>=1.2.4",
+    "uvicorn>=0.54.0",
+]
